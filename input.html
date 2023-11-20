@@ -3,17 +3,32 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+	<title>INPUT DATA</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<form action="registerasi.php" method="POST">
 		<fieldset>
 			<p>
-		<a href="index.html" >Home</a> |
-		<a href="input.html" >Input Data</a> |
-		<a href="tabel.html" >Tabel</a> |
-		<a href="list.html" >List</a> |
-		<a href="about.html" >About</a>
+		<div class="navbar-container">
+        <ul class="ul-container">
+          <li class="li-container">
+            <a href="index.html" class="a-navbar">Home</a>
+          </li>
+          <li class="li-container">
+            <a href="input.html" class="a-navbar">Input</a>
+          </li>
+          <li class="li-container">
+           <a href="tabel.html" class="a-navbar">Tabel</a>
+           </li>
+          <li class="li-container">
+            <a href="list.html" class="a-navbar">List</a>
+          </li>
+          <li class="li-container">
+            <a href="about.html" class="a-navbar">About</a>
+          </li>
+        </ul>
+      </div>
 	</p>
 	<hr>
 			<h3>Rental PS</h3>
@@ -57,6 +72,7 @@
 							</tr>
 							
 							<td><input type="submit" name="submit" value="Submit" /></td>
+							<td><input type="submit" name="batal" value="Batal" /></td>
 						</table>
 					</fieldset>
 				</form>
